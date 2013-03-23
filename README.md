@@ -26,7 +26,7 @@ Add/Modify the configurations defined in the log2csv.groovy
 
 You can add some fields as the non-blank fields in the log2csv.groovy. 
 
-NON_BLANK_FILEDS = ['%h', '%{X-Forwarded-For}i', '%b', '%D', '%P', '%p', '%m', '%U']
+	NON_BLANK_FILEDS = ['%h', '%{X-Forwarded-For}i', '%b', '%D', '%P', '%p', '%m', '%U']
 
 Reference:
 http://httpd.apache.org/docs/2.2/mod/mod_log_config.html
