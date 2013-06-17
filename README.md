@@ -1,5 +1,6 @@
-# Description
-AccessLogConverter converts the access log to .csv format for analyzing with Excel and OpenOffice. 
+AccessLogConverter
+==================
+Convert the access log to .csv format for analyzing with Excel and OpenOffice. 
 
 # Requirement
 * Groovy is installed and configured.
