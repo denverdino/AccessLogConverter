@@ -1,12 +1,13 @@
+# Description
 AccessLogConverter
 ==================
 Convert the access log to .csv format for analyzing with Excel and OpenOffice. 
 
-Prerequisite:
-	Groovy is installed and configured.
+# Requirement
+* Groovy is installed and configured.
 		http://groovy.codehaus.org/
 		
-Usage:
+# Usage
 
 	groovy log2csv.groovy -s "access.log" [-t "access.log.csv"] [-f "format"]
 		-f,--format <format>   Format defined in the configuration, the default value is "default"
