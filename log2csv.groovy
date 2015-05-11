@@ -50,6 +50,7 @@ def parseLogFile(logFile, cvsFile, config) {
 	def pattern = parseConfigPattern(config, headers);
 		
 	new File (cvsFile).withWriter { writer ->
+		writer.writeLine("sep=,")
 		//Write header
 		writer.writeLine(headers.collect{
 			'"' + it + '"'
